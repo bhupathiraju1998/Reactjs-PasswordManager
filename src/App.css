@@ -1,0 +1,193 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(to top, #9ba9eb, #c3caea);
+  background-size: cover;
+  padding: 10px;
+}
+
+.heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 24px;
+  margin-left: 10px;
+}
+.app-logo {
+  width: 150px;
+  height: 50px;
+  margin: 20px;
+}
+
+.log-in-container {
+  background-color: #5763a5;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.password-manager-logo {
+  width: 300px;
+  margin-top: 10px;
+}
+
+.password-container {
+  background-color: #454f84;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.common-container {
+  display: flex;
+  align-items: flex-start;
+  background-color: #f8fafc;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.logo {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+  margin-top: 8px;
+  margin-left: 10px;
+}
+
+.input-field {
+  color: #94a3b8;
+  font-family: 'Roboto';
+  background-color: #f8fafc;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  padding: 10px;
+}
+.button-container {
+  text-align: right;
+  margin-right: 10px;
+}
+
+.add-btn {
+  background-color: #0b69ff;
+  font-family: 'Roboto';
+  font-size: 12px;
+  border-radius: 10px;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  width: 100px;
+}
+
+.bottom-container {
+  background-color: #5763a5;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  background-color: #f8fafc;
+  border: 1px solid #f8fafc;
+  margin-left: 20px;
+}
+
+.search-input {
+  padding: 5px;
+  border: none;
+  outline: none;
+  color: #64748b;
+  font-family: 'Roboto';
+}
+
+.img-search {
+  width: 20px;
+  height: 18px;
+  border: none;
+  outline: none;
+  margin-top: 5px;
+}
+
+.title {
+  color: #ffffff;
+  font-family: 'Roboto';
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+
+.count-search-container {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.password-list {
+  background-color: #5763a5;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.count {
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 16px;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-left: 10px;
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+}
+
+.search-btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: transparent;
+}
+
+.ckb-cont {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.sh-pwd {
+  color: #ffffff;
+  font-family: 'Roboto';
+  margin-left: 5px;
+}
+
+.no-pwd-img {
+  width: 300px;
+  height: 200px;
+}
+
+.no-pwd-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.txt {
+  color: #ffffff;
+}
